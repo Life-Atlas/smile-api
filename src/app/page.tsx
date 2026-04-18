@@ -521,12 +521,69 @@ export default function HomePage() {
       {/* FOOTER */}
       <footer className="border-t border-[#C9A84C]/10 py-12 px-6">
         <div className="max-w-7xl mx-auto">
+          {/* SMILE Ecosystem strip */}
+          <div className="mb-10 glass rounded-2xl p-6 border border-[#C9A84C]/15">
+            <p className="text-[#C9A84C] font-semibold text-xs uppercase tracking-widest mb-4">
+              SMILE Powers Everything
+            </p>
+            <div className="flex flex-wrap items-center gap-x-8 gap-y-3 mb-5">
+              <a
+                href="https://github.com/Life-Atlas/crucible-app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-slate-300 hover:text-[#C9A84C] text-sm font-medium transition-colors"
+              >
+                CRUCIBLE — Proposal Analyzer
+              </a>
+              <a
+                href="https://github.com/Life-Atlas/anvil-app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-slate-300 hover:text-[#C9A84C] text-sm font-medium transition-colors"
+              >
+                ANVIL — Paper Scorer
+              </a>
+              <a
+                href="https://lifeatlas.github.io/the-sentinel-seed/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-slate-300 hover:text-[#C9A84C] text-sm font-medium transition-colors"
+              >
+                Research Library
+              </a>
+              <a
+                href="https://lifeatlas.online"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-slate-300 hover:text-[#C9A84C] text-sm font-medium transition-colors"
+              >
+                lifeatlas.online
+              </a>
+              <a
+                href="https://doi.org/10.5281/zenodo.19646374"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-slate-300 hover:text-[#C9A84C] text-sm font-medium transition-colors"
+              >
+                SMILE Paper — DOI 10.5281/zenodo.19646374
+              </a>
+            </div>
+            <a
+              href="https://calendly.com/futurecreation"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[#C9A84C]/15 border border-[#C9A84C]/25 text-[#C9A84C] text-sm font-semibold hover:bg-[#C9A84C]/25 transition-all"
+            >
+              Book a consulting session — Nicolas Waern / WINNIIO AB
+            </a>
+          </div>
+
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="text-center md:text-left">
               <div className="text-white font-semibold mb-1" style={{ fontFamily: "var(--font-cormorant), serif" }}>
                 S.M.I.L.E. — Sustainable Methodology for Impact Lifecycle Enablement
               </div>
-              <div className="text-slate-500 text-sm">WINNIIO AB · Gothenburg, Sweden</div>
+              <div className="text-slate-500 text-sm">Nicolas Waern / WINNIIO AB · Gothenburg, Sweden</div>
               <div className="text-slate-600 text-xs mt-1">Powered by the SMILE methodology</div>
             </div>
 
